@@ -1,0 +1,9 @@
+gdown
+numpy
+pandas
+tensorflow
+seaborn
+sklearn
+transformers
+accelerate
+keras-nlp
