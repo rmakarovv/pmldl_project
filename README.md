@@ -4,6 +4,10 @@ This repository is contains source code and reports for the project on Practical
         authors: Roman Makarov & Adela Krylova
         e-mails: o.makarov@innopolis.university & a.krylova@innopolis.university
 
+## The best results we obtained are:
+1. Discriminator accuracy was improved from **57%** (almost no training data) to **68%** on competition validation dataset
+2. Generator model was able to fool DistilBERT model in **68%** of generated data! (DistilBERT has one of the best results on kaggle with 85% accuracy).
+
 ## The project can be run in the following steps:
 
 0. Clone github repository with `git clone https://github.com/rmakarovv/pmldl_project.git`
@@ -20,7 +24,3 @@ This repository is contains source code and reports for the project on Practical
     1) Trains DistilBERT for 2 epochs (one of the best results on Kaggle)
     2) Writes down all generated samples that fooled the resulting model to `data/final/tricked.txt` 
 6. To evaluate discriminator submit `submission_end` file to Kaggle competition.
-
-## The best results we obtained are:
-1. Discriminator accuracy was improved from 57% (almost no training data) to 68% on competition validation dataset
-2. Generator model was able to fool DistilBERT model in 68% of generated data! (DistilBERT has one of the best results on kaggle with 85% accuracy).
