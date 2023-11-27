@@ -4,7 +4,7 @@ This repository is contains source code and reports for the project on Practical
         authors: Roman Makarov & Adela Krylova
         e-mails: o.makarov@innopolis.university & a.krylova@innopolis.university
 
-Look at `reports/Final_presentation.pptx(pdf)` for detailed presentation on this solution.
+Look at `reports/Final_presentation.pptx(pdf)` and `reports/FinalTechnicalReport_RMakarov_AKrylova.pdf` for detailed presentation on this solution.
 
 ## The best results we obtained are:
 1. Discriminator accuracy was improved from **57%** (almost no training data) to **68%** on competition validation dataset
