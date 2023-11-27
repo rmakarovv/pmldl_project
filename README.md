@@ -25,4 +25,4 @@ Look at `reports/Final_presentation.pptx(pdf)` for detailed presentation on this
 5. Run `notebooks/3_0_evaluate_generator.ipynb` to evaluate generator. This notebook:
     1) Trains DistilBERT for 2 epochs (one of the best results on Kaggle)
     2) Writes down all generated samples that fooled the resulting model to `data/final/tricked.txt` 
-6. To evaluate discriminator submit `submission_end` file to Kaggle competition.
+6. To evaluate discriminator submit `submission_end` file to [Kaggle competition](https://www.kaggle.com/competitions/nlp-getting-started).
